@@ -6,7 +6,7 @@
 // }
 
 def call() {
-    echo 'Building the application for branch $GIT_BRANCH...'
+    echo "Building the application for branch $GIT_BRANCH..."
     sh 'mvn package'
 
 }
